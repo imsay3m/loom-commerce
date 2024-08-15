@@ -1,0 +1,19 @@
+{
+  "name": "loom-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.9"
+  }
+}
