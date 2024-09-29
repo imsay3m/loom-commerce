@@ -2972,6 +2972,14 @@ select {
   }
 }
 
+/* form input field styles */
+.form_input_field input:focus{
+  outline-style: none;
+  box-shadow: none;
+  border: 2px solid rgb(255 212 0 / var(--tw-border-opacity));
+  border-right: none !important;
+}
+
 @media (min-width: 1280px) {
   .xl\:py-24 {
     padding-top: 6rem;
@@ -2995,3 +3003,4 @@ select {
     text-align: right;
   }
 }
+
